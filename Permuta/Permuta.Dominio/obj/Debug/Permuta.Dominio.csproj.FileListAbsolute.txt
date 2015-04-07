@@ -1,0 +1,9 @@
+c:\users\juan\documents\visual studio 2013\Projects\Permuta\Permuta.Dominio\bin\Debug\Permuta.Dominio.dll.config
+c:\users\juan\documents\visual studio 2013\Projects\Permuta\Permuta.Dominio\bin\Debug\Permuta.Dominio.dll
+c:\users\juan\documents\visual studio 2013\Projects\Permuta\Permuta.Dominio\bin\Debug\Permuta.Dominio.pdb
+c:\users\juan\documents\visual studio 2013\Projects\Permuta\Permuta.Dominio\bin\Debug\EntityFramework.dll
+c:\users\juan\documents\visual studio 2013\Projects\Permuta\Permuta.Dominio\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\juan\documents\visual studio 2013\Projects\Permuta\Permuta.Dominio\bin\Debug\EntityFramework.xml
+c:\users\juan\documents\visual studio 2013\Projects\Permuta\Permuta.Dominio\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\juan\documents\visual studio 2013\Projects\Permuta\Permuta.Dominio\obj\Debug\Permuta.Dominio.dll
+c:\users\juan\documents\visual studio 2013\Projects\Permuta\Permuta.Dominio\obj\Debug\Permuta.Dominio.pdb

@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Permuta.Dominio.Entidades.Anuncio>
+
+
+@{
+    ViewBag.Title = "Cadastro - Anuncio";
+    
+}
+
+
+<div id="divexcluir"></div>
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Permuta - Cadastro - Anuncio</h3>
+    </div>
+    <div class="panel-body">
+
+        @Html.ActionLink("Novo anuncio", "Alterar", "Anuncio", new { @class = "btn btn-default" })
+        
+
+
+        <table class="table table-striped table-condensed table-bordered">
+            <thead>
+                <tr>
+                    <th class="text-right">#Id</th>
+                    <th>Titulo</th>
+                    <th class="text-right">Tipo de Oferta</th>
+                    <th class="text-center">Excluir Anuncio</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                @foreach (var RN in Model)
+                {
+                    <tr id="row-@RN.AnuncioID">
+
+                        <td class="text-right">
+                            # @RN.AnuncioID
+                        </td>
+                        <td>
+                            @Html.ActionLink(RN.Titulo, "Alterar", new { RN.AnuncioID })
+                        </td>
+                        <td class="text-right">
+                            @RN.Tipo_Oferta
+                        </td>
+                        <td class="text-center">
+
+                            <input type="submit" class="btn btn-default btn-xs" id="@RN.AnuncioID" name="@RN.Titulo" value="Excluir" />
+
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+
+
+
+
+
+
